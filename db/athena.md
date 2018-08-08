@@ -1,4 +1,4 @@
-<a href="*/db/mysql_notes.html*">mysql_notes.html</a>
+<a href="mysql_notes.html">mysql_notes.html</a>
 
 # Athena
 
