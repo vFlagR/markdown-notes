@@ -1,2 +1,4 @@
+.htaccess
+.htpasswd
 .DS_Store
 portal_development/*
