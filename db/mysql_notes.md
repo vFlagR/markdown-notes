@@ -1,6 +1,4 @@
-<html><link rel="stylesheet" href="css/retro.css"></html>
-
-<link rel="stylesheet" href="css/retro.css">
+<html><link rel="stylesheet" href="../css/retro.css"></html>
 
 # MySQL Notes
 
