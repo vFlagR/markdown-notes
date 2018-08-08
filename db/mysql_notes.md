@@ -1,3 +1,7 @@
+<html><link rel="stylesheet" href="path/to/css/retro.css"></html>
+
+<link rel="stylesheet" href="path/to/css/retro.css">
+
 # MySQL Notes
 
 ##### Find InnoDB size #####
