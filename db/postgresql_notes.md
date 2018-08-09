@@ -1,3 +1,5 @@
+<html><link rel="stylesheet" href="../css/github-markdown.css"></html>
+
 # PostgreSQL Notes
 
 ### Connecting to a PostgreSQL DB ###
