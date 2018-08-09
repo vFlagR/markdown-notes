@@ -1,10 +1,10 @@
-<html><link rel="stylesheet" href="../css/pandoc.css"></html>
+<html><link rel="stylesheet" href="../css/air.css"></html>
 
 # Athena
 
 There are a few default Athena queries you can run in order to make an Athena table for various AWS Services. These can be found below:
 
-### Note: Make sure to change the TableName and BucketName variables. ###
+**Note: Make sure to change the TableName and BucketName variables.**
 
 #### S3 Bucket Access Logs: ####
 ~~~sql

@@ -1,4 +1,4 @@
-<html><link rel="stylesheet" href="../css/pandoc.css"></html>
+<html><link rel="stylesheet" href="../css/air.css"></html>
 
 # MySQL Notes
 
@@ -15,4 +15,12 @@ GROUP  BY table_schema
 ORDER  BY 2 DESC; 
 ```
 
+##### Find count of items with greater than given threshold
+
+~~~MySql
+SELECT DISTINCT(FIELD) AS FIELD_NAME, COUNT(FIELD) AS Count
+FROM TABLE_NAME
+GROUP BY FIELD
+HAVING COUNT(FIELD) > 300000000;
+~~~
 

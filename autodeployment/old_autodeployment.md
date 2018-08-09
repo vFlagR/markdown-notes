@@ -1,4 +1,4 @@
-<html><link rel="stylesheet" href="../css/pandoc.css"></html>
+<html><link rel="stylesheet" href="../css/air.css"></html>
 
 # Old AutoDeployment
 
@@ -16,7 +16,7 @@ sqlite3 autodeployment.db
 ~~~
 select * from deployments;
 ~~~
-4. After identifying the correct JSON string copy and paste it in to http://www.jsoneditoronline.org.
+4. After identifying the correct JSON string copy and paste it in to http://jsoneditoronline.org.
 5. Make the necessary changes to the JSON string then minimise it again.
 6. Go back to the database and update the relevant field using the following command:
 ~~~
