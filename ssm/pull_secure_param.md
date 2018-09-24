@@ -38,15 +38,15 @@
    }
    ```
 
-   7. Review the policy, give it a name and save.
+7. Review the policy, give it a name and save.
 
-   8. Log in to the server where your script will run and edit 
+8. Log in to the server where your script will run and edit 
 
       ```shell
       ~/.aws/credentials
       ```
 
-   9. Add a new profile similar to the below in to the credentials file. Use the Secret and Access keys you took note of earlier
+9. Add a new profile similar to the below in to the credentials file. Use the Secret and Access keys you took note of earlier
 
       ```bash
       [Profile_name]
@@ -54,7 +54,7 @@
       aws_secret_access_key = ACCCESS_KEY
       ```
 
-   10. Finnaly, create a bash script similar to the below. It will grab only the value of the Parameter from AWS and assign it to the $get_param variable. It's an unquoted string too so can be dropped in to connection strings for DB's etc.
+10. Finnaly, create a bash script similar to the below. It will grab only the value of the Parameter from AWS and assign it to the $get_param variable. It's an unquoted string too so can be dropped in to connection strings for DB's etc.
 
        ```bash
        #!/bin/bash 
