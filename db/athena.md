@@ -8,7 +8,8 @@ There are a few default Athena queries you can run in order to make an Athena ta
 
 **Note: Make sure to change the TableName and BucketName variables.**
 
-#### S3 Bucket Access Logs: ####
+##### S3 Bucket Access Logs:
+
 ~~~sql
 CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (
   BucketOwner string,
@@ -37,7 +38,7 @@ WITH SERDEPROPERTIES (
   'input.regex' = '([^ ]*) ([^ ]*) \\[(.*?)\\] ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) \\\"([^ ]*) ([^ ]*) (- |[^ ]*)\\\" (-|[0-9]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) (\"[^\"]*\") ([^ ]*)$'
 ) LOCATION 's3://BUCKETNAME/'
 ~~~
-#### CloudFront Logs
+##### CloudFront Logs
 
 ~~~sql
 CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (
@@ -74,7 +75,7 @@ LOCATION 's3://BUCKETNAME'
 TBLPROPERTIES ( 'skip.header.line.count'='2' )
 ~~~
 
-#### ELB (Classic LoadBalancer)
+##### ELB (Classic LoadBalancer)
 
 ~~~sql
 CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (
@@ -105,7 +106,7 @@ WITH SERDEPROPERTIES (
 LOCATION 's3://BUCKETNAME/';
 ~~~
 
-#### ALB (Application Load Balancer)
+##### ALB (Application Load Balancer)
 
 ~~~sql
 CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (
@@ -147,7 +148,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (
     LOCATION 's3://BUCKETNAME/';
 ~~~
 
-#### VPC Flow Logs
+##### VPC Flow Logs
 
 ~~~sql
 CREATE EXTERNAL TABLE IF NOT EXISTS DATABASE.TABLE_NAME (

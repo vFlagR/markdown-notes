@@ -4,7 +4,7 @@
 
 # Useful Commands
 
-##### Find all applications installed in Ubuntu ##### 
+##### Find all applications installed in Ubuntu
 
 ~~~shell
 sudo apt-get install aptitude
@@ -19,13 +19,13 @@ find . -maxdepth 1 -name "all.log.*" -print0 | xargs -0 rm
 
 ##### Run commands in Screen
 
-+ Run a single command in Screen
+Run a single command in Screen
 
 ~~~shell
 screen -dm COMMAND
 ~~~
 
-* Run a script in Screen
+Run a script in Screen
 
 ~~~shell
 screen -dm bash -c "script.sh" 
