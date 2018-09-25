@@ -2,8 +2,6 @@
 
 ### Kieran's Personal Notes
 
-----
-
 ##### Databases
 
 [Athena](db/athena.html)

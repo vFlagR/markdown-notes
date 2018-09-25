@@ -2,8 +2,6 @@
 
 #### Creating a bash script to pull a secure param from SSM
 
---------
-
 1. Log in to the AWS Console and navigate to Systems Manager
 
 2. Go to Parameter Store in the bottom left of the nav
