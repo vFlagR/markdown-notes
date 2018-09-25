@@ -101,6 +101,7 @@ h1,
 .air-h1 {
   margin-top: 0;
   font-size: 3.998rem;
+  text-align: center;
 }
 
 h2,
@@ -153,7 +154,6 @@ body {
   font-weight: 300;
   margin: 6rem auto 1rem;
   max-width: 48rem;
-  text-align: center;
 }
 
 img {
