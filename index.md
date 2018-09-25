@@ -1,4 +1,4 @@
-<html><link rel="stylesheet" href="css/air.css"></html>
+<html><link rel="stylesheet" href="asssets/css/air.css"></html>
 
 # Kieran's Personal Notes
 
