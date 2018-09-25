@@ -1,5 +1,7 @@
 <html><link rel="stylesheet" href="../css/air.css"></html>
 
+[Home](../index.html)
+
 # Finding Resources
 
 These commands can be quite useful when trying to find all of the resources of a certain account for patching/EAR purposes

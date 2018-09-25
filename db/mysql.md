@@ -1,5 +1,7 @@
 <html><link rel="stylesheet" href="../css/air.css"></html>
 
+[Home](../index.html)
+
 # MySQL Notes
 
 ##### Find InnoDB size #####
