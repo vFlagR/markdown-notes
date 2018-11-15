@@ -37,3 +37,12 @@ screen -dm bash -c "script.sh"
 php -i | grep 'Loaded Configuration File'
 ~~~
 
+##### Compress and gzip  a directory
+Compress and Gzip
+~~~shell
+tar -czvf $compressedFileName.tar.gz $uncompressedFile/Folder 
+~~~
+
+Uncompress and unzip 
+~~~shell
+tar -xvjf $compressedFileName.tar.gz $destination
