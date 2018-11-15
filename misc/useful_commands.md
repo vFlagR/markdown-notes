@@ -46,3 +46,4 @@ tar -czvf $compressedFileName.tar.gz $uncompressedFile/Folder
 Uncompress and unzip 
 ~~~shell
 tar -xvjf $compressedFileName.tar.gz $destination
+~~~
