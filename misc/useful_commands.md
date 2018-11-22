@@ -47,3 +47,9 @@ Uncompress and unzip
 ~~~shell
 tar -xvjf $compressedFileName.tar.gz $destination
 ~~~
+
+Add dns-search to Ubuntu 18.04
+~~~
+vim /etc/resolv.conf
+search xyz.com
+~~~
