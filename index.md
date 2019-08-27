@@ -24,5 +24,7 @@
 ### Misc
 [Useful Commands](misc/useful_commands.md)
 
+[Mac Apps](misc/mac_apps.md)
+
 ### SSM
 [Pull SecureString from SSM](ssm/pull_param.md)
